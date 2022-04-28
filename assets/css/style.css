@@ -15,5 +15,24 @@ body {
 /* headings */
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Game Layout */
+
+body {
+    display: grid;
+    height: 100vh;
+}
+
+.game-area {
+    display: grid;
+    justify-content: center;
+    align-self: center;
+}
+
+div > a {
+    display: grid;
+    justify-content: center;
 }
