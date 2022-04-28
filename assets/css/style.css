@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #000000;
+    color: #1B4332;
     background: url("../images/person-holding-green-leaf.jpg") no-repeat center center fixed;
     background-size: cover;
 }
@@ -91,7 +91,35 @@ div > a {
 
 .btn:hover {
     box-shadow: 0 0.4rem 1.4rem 0;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
 }
 
 /* Game play page */
 
+.answer-choice {
+    display: flex;
+    margin-bottom: 0.8rem;
+    /* width: 100%; */
+    font-size: 1.3rem;
+    /* border: 0.1rem solid #2D6A4F; */
+    /* font-weight: 600; */
+    background-color: #ffffff;
+}
+
+.answer-choice:hover {
+    box-shadow: 0 0.4rem 1.4rem 0;
+    cursor: pointer;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 0.8rem 1.2rem;
+    background-color: #2D6A4F;
+    color: #ffffff;
+}
+
+.choice-text {
+    padding: 1rem;
+}
