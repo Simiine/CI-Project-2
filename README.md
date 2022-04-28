@@ -43,7 +43,18 @@
 - Javascript
 
 # Credits
+* Font was sourced from Google Fonts https://fonts.google.com/
 ## Support
 ## Content
+* Javascript Quiz Tutorial - https://www.youtube.com/watch?v=u98ROZjBWy8&t=7s
 ## Media
+* Picture was taken from the open source site Unsplash https://unsplash.com/
 ## Code
+* CSS glass effect used on game start page - https://css.glass/
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.71);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+border: 1px solid rgba(255, 255, 255, 0.04);
