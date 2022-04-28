@@ -4,12 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #D8F3DC;
+    /* background-color: #D8F3DC; */
 }
+
+
 
 body {
     font-family: 'Roboto', sans-serif;
     color: #000000;
+    background: url("../images/wind-turbines-grass-field.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 /* headings */
@@ -17,6 +21,7 @@ body {
 h1 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    color: #1B4332;
 }
 
 /* Game Layout */
@@ -30,6 +35,17 @@ body {
     display: grid;
     justify-content: center;
     align-self: center;
+
+    /* box shadow */
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    width: 85%;
+    margin: auto;
+    padding-top: 1rem;
 }
 
 div > a {
@@ -54,15 +70,3 @@ div > a {
 .btn:hover {
     box-shadow: 0 0.4rem 1.4rem 0;
 }
-
-/* .btn {
-    text-decoration: none;
-    border: 0.2rem solid #2D6A4F;
-    background-color: white;
-    color: #2D6A4F;
-    padding: 0.6rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-    border-radius: 2rem;
-    width: 12rem;
-} */
