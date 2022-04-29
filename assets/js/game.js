@@ -1,8 +1,17 @@
-// Contant 
+// Constant Variables
 
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
-console.log(choices);
+
+/**
+ * When player gets an answer correct how much it is worth
+ */
+const CORRECT_BONUS = 10;
+
+/**
+ * How many questions a user gets before they finish
+ */
+const MAX_QUESTIONS = 3;
 
 // Let variables
 
@@ -14,7 +23,7 @@ let availableQuestion = [];
 
 let questions = [
     {
-        question: "Test Question",
+        question: "Test Question 1",
         choice1: "Test Answer 1",
         choice2: "Test Answer 2",
         choice3: "Test Answer 3",
@@ -22,14 +31,32 @@ let questions = [
         answer: 1
     },
     {
-        question: "Test Question",
+        question: "Test Question 2",
         choice1: "Test Answer 1",
         choice2: "Test Answer 2",
         choice3: "Test Answer 3",
         choice4: "Test Answer 4",
         answer: 3
-    }
+    },
+    {
+        question: "Test Question 3",
+        choice1: "Test Answer 1",
+        choice2: "Test Answer 2",
+        choice3: "Test Answer 3",
+        choice4: "Test Answer 4",
+        answer: 3
+    },
+    {
+        question: "Test Question 4",
+        choice1: "Test Answer 1",
+        choice2: "Test Answer 2",
+        choice3: "Test Answer 3",
+        choice4: "Test Answer 4",
+        answer: 3
+    },
+
 ];
+
 
 /**
  * Questions
