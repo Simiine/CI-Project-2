@@ -84,7 +84,7 @@ div > a {
     font-weight: 600;
     border: 0.2rem solid #2D6A4F;
     padding: 0.6rem;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     background-color: white;
     width: 12rem;
     margin: auto auto 1rem;
