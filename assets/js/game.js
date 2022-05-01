@@ -61,7 +61,6 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
-    console.log(availableQuestions);
     getNewQuestion();
 };
 
@@ -97,7 +96,13 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-       console.log(selectedAnswer);
+
+        // show if selected answer is correct or incorrect
+        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+
+        selectedChoice.parentElement.classList.add(classToApply);
+        //selectedChoice.parentElement.classList.remove(classToApply);
+
         getNewQuestion();
     });
 });
