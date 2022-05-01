@@ -125,3 +125,11 @@ div > a {
     padding: 1rem;
     width: 100%;
 }
+
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
