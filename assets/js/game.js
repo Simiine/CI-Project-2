@@ -73,6 +73,10 @@ getNewQuestion = () => {
         return window.location.assign("/end.html");
     }
     questionCounter++;
+
+    // shows number of questions user is on out of total
+    questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
+    
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -102,6 +106,10 @@ choices.forEach(choice => {
         // show if selected answer is correct or incorrect
         const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
+        if(classToApply === 'correct') {
+            incrementScore(CORRECT_BONUS);
+        }
+
         selectedChoice.parentElement.classList.add(classToApply);
 
         setTimeout(() => {
@@ -111,6 +119,11 @@ choices.forEach(choice => {
         
     });
 });
+
+incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+}
 
 startGame();
 
