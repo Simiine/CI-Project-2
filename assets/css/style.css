@@ -149,3 +149,16 @@ div > a {
 .hud-main-text {
     text-align: center;
 }
+
+#progressBar {
+    width: 12rem;
+    height: 2rem;
+    border: 0.3rem solid #2D6A4F;
+    margin-top: 0.5rem;
+}
+
+#progressBarFull {
+    height: 1.5rem;
+    background-color: #2D6A4F;
+    width: 0%;
+}

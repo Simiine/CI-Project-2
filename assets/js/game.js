@@ -4,6 +4,7 @@ const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
+const progressBarFull = document.getElementById("progressBarFull");
 
 /**
  * When player gets an answer correct how much it is worth
@@ -76,6 +77,9 @@ getNewQuestion = () => {
 
     // shows number of questions user is on out of total
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    
+    //update the progress bar
+    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
     
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
