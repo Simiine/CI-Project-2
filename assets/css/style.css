@@ -56,12 +56,12 @@ body {
     padding: 2rem;
 }
 
-.game-area {
+/* .game-area {
     display: grid;
     justify-content: center;
     align-self: center;
 
-    /* box shadow */
+    box shadow
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
@@ -69,7 +69,7 @@ body {
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.04);
     padding-top: 1rem;
-}
+} */
 
 div > a {
     display: grid;
