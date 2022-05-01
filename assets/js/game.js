@@ -2,7 +2,7 @@
 
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
-const questionCounterText = document.getElementById('questionCounter');
+const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 
 /**
@@ -75,7 +75,7 @@ getNewQuestion = () => {
     questionCounter++;
 
     // shows number of questions user is on out of total
-    questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
