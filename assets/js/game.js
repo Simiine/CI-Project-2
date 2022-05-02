@@ -9,7 +9,7 @@ const progressBarFull = document.getElementById("progressBarFull");
 const CORRECT_BONUS = 10;
 
 //Number of questions in the game
-const MAX_QUESTIONS = 4;
+const MAX_QUESTIONS = 10;
 
 //Let variables
 let currentQuestion = {};
