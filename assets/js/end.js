@@ -28,7 +28,7 @@ saveHighScore = (e) => {
     //Sorts high score in order from highest to lowest
     highScores.sort( (a,b) => b.score - a.score)
     //Shows top 5 high scores
-    highScores.splice(5);
+    highScores.splice(MAX_HIGH_SCORE);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
     window.location.assign('/');
