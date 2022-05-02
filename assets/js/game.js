@@ -1,29 +1,26 @@
-// Constant Variables
-
+//Constant Variables
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById("progressBarFull");
 
-/**
- * When player gets an answer correct how much it is worth
- */
+//Points per score player gets
 const CORRECT_BONUS = 10;
 
-/**
- * How many questions a user gets before they finish
- */
+//Number of questions in the game
 const MAX_QUESTIONS = 4;
 
-// Let variables
-
+//Let variables
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestion = [];
 
+/**
+ * Game Questions
+ */
 let questions = [
     {
         question: "Example of the first question",
@@ -60,6 +57,9 @@ let questions = [
 
 ];
 
+/**
+ * Start Game function
+ */
 startGame = () => {
     questionCounter = 0;
     score = 0;
@@ -67,39 +67,42 @@ startGame = () => {
     getNewQuestion();
 };
 
-// Select random questions from available
+/**
+ * Selects random questions from available list
+ */
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
         localStorage.setItem('mostRecentScore', score);
-        //go to the end page once gone through all questions
+        //Takes user to end page once all questions are answered
         return window.location.assign("/end.html");
     }
-    questionCounter++;
 
-    // shows number of questions user is on out of total
+    questionCounter++;
+    //Shows number of questions user is on
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-    
-    //update the progress bar
+    //Updates progress bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
     
+    //Updates question
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
 
-    // Lists choices from dataset
+    //Lists choices from dataset
     choices.forEach( choice => {
         const number = choice.dataset["number"];
         choice.innerText = currentQuestion["choice" + number];
     });
 
-    //Remove the question just used so it won't repeat
+    //Removes used question so there is no repetition
     availableQuestion.splice(questionIndex, 1);
-
-    // allow users to answer
+    //Allow users to answer
     acceptingAnswers = true;
 };
 
-// Add event listener for clicking answer options
+/**
+ * Adds event listener for clicking answer options
+ */
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;
@@ -108,20 +111,21 @@ choices.forEach(choice => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
 
-        // show if selected answer is correct or incorrect
+        //Shows correct or incorrect answers using CSS styling
         const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
+        //Increments score for correct answers
         if(classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
 
+        //Adds delay before next question appears
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
         }, 1000);
-        
     });
 });
 
