@@ -1,9 +1,10 @@
 //Constant Variables
-const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
-const progressText = document.getElementById('progressText');
-const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById("progressBarFull");
+const progressText = document.getElementById('progressText');
+const question = document.getElementById("question");
+const scoreText = document.getElementById('score');
+
 
 //Points per score player gets
 const CORRECT_BONUS = 10;
