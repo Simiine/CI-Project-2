@@ -49,6 +49,10 @@ https://coolors.co/palette/d8f3dc-b7e4c7-95d5b2-74c69d-52b788-40916c-2d6a4f-1b43
 ## Support
 ## Content
 * Javascript Quiz Tutorial - https://www.youtube.com/watch?v=u98ROZjBWy8&t=7s
+* Question sources - https://ig.ft.com/climate-change-quiz/
+https://www.washingtonpost.com/climate-solutions/interactive/2022/climate-change-quiz/
+https://www.energy.gov/maps/quiz-how-much-do-you-know-about-climate-change
+
 ## Media
 * Picture was taken from the open source site Unsplash https://unsplash.com/
 ## Code
