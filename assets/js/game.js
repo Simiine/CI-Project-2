@@ -149,7 +149,7 @@ choices.forEach(choice => {
         const selectedAnswer = selectedChoice.dataset["number"];
 
         //Shows correct or incorrect answers using CSS styling
-        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        const classToApply = selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect';
 
         //Increments score for correct answers
         if(classToApply === 'correct') {
