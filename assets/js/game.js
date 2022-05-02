@@ -23,7 +23,7 @@ let questions = [
         choice2: "When gases in the Earth’s atmosphere prevent heat from escaping into space.",
         choice3: "When climate change affects ecosystems.",
         choice4: "The impact trees have on global temperatures.",
-        answer: 2
+        answer: '2'
     },
     {
         question: "What is the most potent greenhouse gas?",
@@ -31,7 +31,7 @@ let questions = [
         choice2: "Carbon dioxide",
         choice3: "Nitrous oxide",
         choice4: "Methane",
-        answer: 1
+        answer: '1'
     },
     {
         question: "How much have sea levels risen in the past 100 years?",
@@ -39,7 +39,7 @@ let questions = [
         choice2: "2 inches",
         choice3: "5 inches",
         choice4: "16 inches",
-        answer: 1
+        answer: '1'
     },
     {
         question: "Which of the following is the biggest cause of global warming?",
@@ -47,7 +47,7 @@ let questions = [
         choice2: "Burning oil, gas and coal",
         choice3: "Natural variation of the planet",
         choice4: "Pollution from wildfires",
-        answer: 2
+        answer: '2'
     },
     {
         question: "Which of the following places has warmed the most, over the past 100 years?",
@@ -55,7 +55,7 @@ let questions = [
         choice2: "Vancouver, Canada",
         choice3: "Svalbard, Norway",
         choice4: "Basra, Iraq",
-        answer: 3
+        answer: '3'
     },
     {
         question: "Which country is the world’s largest emitter of carbon dioxide?",
@@ -63,7 +63,7 @@ let questions = [
         choice2: "China",
         choice3: "India",
         choice4: "Russia",
-        answer: 2
+        answer: '2'
     },
     {
         question: "What is the world’s simplest molecule and a potential source of clean energy?",
@@ -71,7 +71,7 @@ let questions = [
         choice2: "Methane",
         choice3: "Ammonia",
         choice4: "Lithium",
-        answer: 1
+        answer: '1'
     },
     {
         question: "Which five-year period was the warmest on record?",
@@ -79,7 +79,7 @@ let questions = [
         choice2: "2006 - 2010",
         choice3: "2011 - 2015",
         choice4: "2016 - 2020",
-        answer: 4
+        answer: '4'
     },
     {
         question: "Globally, which of the following sectors emits the largest % of greenhouse gas emisions?",
@@ -87,7 +87,7 @@ let questions = [
         choice2: "Buildings",
         choice3: "Industry",
         choice4: "Electricity and heat production",
-        answer: 4
+        answer: '4'
     },
     {
         question: "How many million tons of plastic are dumped in our oceans every year?",
@@ -95,7 +95,7 @@ let questions = [
         choice2: "8 million tons",
         choice3: "20 million tons",
         choice4: "50 million tons",
-        answer: 2
+        answer: '2'
     },
 ];
 
@@ -149,7 +149,7 @@ choices.forEach(choice => {
         const selectedAnswer = selectedChoice.dataset["number"];
 
         //Shows correct or incorrect answers using CSS styling
-        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        const classToApply = selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect';
 
         //Increments score for correct answers
         if(classToApply === 'correct') {
