@@ -112,7 +112,9 @@ function startGame() {
 /**
  * Selects random questions from available list
  */
-getNewQuestion = () => {
+function getNewQuestion() {
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
         localStorage.setItem('mostRecentScore', score);
         //Takes user to end page once all questions are answered
@@ -120,13 +122,14 @@ getNewQuestion = () => {
     }
 
     questionCounter++;
+    
     //Shows number of questions user is on
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     //Updates progress bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
     
     //Updates question
-    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
 
