@@ -87,7 +87,7 @@ let questions = [
         answer: 4
     },
     {
-        question: "Globally, which if the following sectors emits the largest % of greenhouse gas emisions?",
+        question: "Globally, which of the following sectors emits the largest % of greenhouse gas emisions?",
         choice1: "Transportation",
         choice2: "Buildings",
         choice3: "Industry",
@@ -102,7 +102,6 @@ let questions = [
         choice4: "50 million tons",
         answer: 2
     },
-
 ];
 
 /**
@@ -143,7 +142,7 @@ getNewQuestion = () => {
     });
 
     //Removes used question so there is no repetition
-    availableQuestion.splice(questionIndex, 1);
+    availableQuestions.splice(questionIndex, 1);
     //Allow users to answer
     acceptingAnswers = true;
 };
