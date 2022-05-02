@@ -4,15 +4,9 @@ const progressBarFull = document.getElementById("progressBarFull");
 const progressText = document.getElementById('progressText');
 const question = document.getElementById("question");
 const scoreText = document.getElementById('score');
-
-
-//Points per score player gets
 const CORRECT_BONUS = 10;
-
-//Number of questions in the game
 const MAX_QUESTIONS = 10;
 
-//Let variables
 let currentQuestion = {};
 let acceptingAnswers = true;
 let score = 0;
