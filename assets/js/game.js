@@ -166,10 +166,14 @@ choices.forEach(choice => {
     });
 });
 
-incrementScore = num => {
+/**
+ * Increments the score
+ * @param {number} num - bonus to be applied to the score
+ */
+function incrementScore(num) {
     score += num;
     scoreText.innerText = score;
-};
+}
 
 startGame();
 
