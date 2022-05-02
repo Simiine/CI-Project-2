@@ -122,26 +122,20 @@ function getNewQuestion() {
     }
 
     questionCounter++;
-    
-    //Shows number of questions user is on
+
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-    //Updates progress bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
-    
-    //Updates question
     
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
 
-    //Lists choices from dataset
     choices.forEach( choice => {
         const number = choice.dataset["number"];
         choice.innerText = currentQuestion["choice" + number];
     });
 
-    //Removes used question so there is no repetition
     availableQuestions.splice(questionIndex, 1);
-    //Allow users to answer
+    
     acceptingAnswers = true;
 };
 
