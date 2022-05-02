@@ -117,7 +117,6 @@ function getNewQuestion() {
 
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
         localStorage.setItem('mostRecentScore', score);
-        //Takes user to end page once all questions are answered
         return window.location.assign("/end.html");
     }
 
@@ -135,7 +134,6 @@ function getNewQuestion() {
     });
 
     availableQuestions.splice(questionIndex, 1);
-    
     acceptingAnswers = true;
 };
 
