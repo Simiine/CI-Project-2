@@ -25,7 +25,7 @@ let questions = [
     {
         question: "What is the greenhouse effect?",
         choice1: "The measurement of plant growth in areas affected by flooding.",
-        choice2: "The phenomenon in which gases in the Earth’s atmosphere prevent heat from escaping into space.",
+        choice2: "When gases in the Earth’s atmosphere prevent heat from escaping into space.",
         choice3: "When climate change affects ecosystems.",
         choice4: "The impact trees have on global temperatures.",
         answer: 2
@@ -68,6 +68,38 @@ let questions = [
         choice2: "China",
         choice3: "India",
         choice4: "Russia",
+        answer: 2
+    },
+    {
+        question: "What is the world’s simplest molecule and a potential source of clean energy?",
+        choice1: "Hydrogen",
+        choice2: "Methane",
+        choice3: "Ammonia",
+        choice4: "Lithium",
+        answer: 1
+    },
+    {
+        question: "Which five-year period was the warmest on record?",
+        choice1: "2001 - 2005",
+        choice2: "2006 - 2010",
+        choice3: "2011 - 2015",
+        choice4: "2016 - 2020",
+        answer: 4
+    },
+    {
+        question: "Globally, which if the following sectors emits the largest % of greenhouse gas emisions?",
+        choice1: "Transportation",
+        choice2: "Buildings",
+        choice3: "Industry",
+        choice4: "Electricity and heat production",
+        answer: 4
+    },
+    {
+        question: "How many million tons of plastic are dumped in our oceans every year?",
+        choice1: "1 million tons",
+        choice2: "8 million tons",
+        choice3: "20 million tons",
+        choice4: "50 million tons",
         answer: 2
     },
 
