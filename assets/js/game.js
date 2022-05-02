@@ -102,7 +102,7 @@ let questions = [
 /**
  * Start Game function
  */
-startGame = () => {
+function startGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
