@@ -1,6 +1,6 @@
 //Constant variables
-const highScoresList = document.getElementById('highScoresList');
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+const highScoresList = document.getElementById('highScoresList');
 
 //Displays high scores
 highScoresList.innerHTML = 
