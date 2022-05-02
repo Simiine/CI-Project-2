@@ -141,7 +141,7 @@ function getNewQuestion() {
  * Adds event listener for clicking answer options
  */
 choices.forEach(choice => {
-    choice.addEventListener('click', e => {
+    choice.addEventListener('click', (event) => {
         if(!acceptingAnswers) return;
 
         acceptingAnswers = false;
