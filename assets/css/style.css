@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
     margin-bottom: 1rem;
     color: #1B4332;
     text-align: center;
@@ -45,16 +45,33 @@ header {
 /* Game start page */
 
 body {
-    display: grid;
+    /* display: grid; */
     height: 100vh;
+
+    /* test code for responsiveness****************************/
+    display: flex;
+    justify-content: center;
 }
 
 .game-container {
-    display: grid;
+    /* display: grid; */
     justify-content: center;
     align-self: center;
-    padding: 2rem;
+    padding: 2rem; 
+
+    /* test code for responsiveness****************************/
+    display: flex;
+    width: 50rem;
 }
+
+/* test code for responsiveness****************************/
+#game {
+    width: 100%;
+}
+
+/* .game-container>* {
+    width: 90%;
+} */
 
 /* .game-area {
     display: grid;
@@ -211,4 +228,19 @@ input::placeholder {
 .high-score:hover {
     transform: scale(1.025);
     cursor: pointer;
+}
+
+/* Media Query small screen */
+
+@media screen and (max-width: 356px) {
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .hud-prefix {
+        font-size: 1.2rem;
+    }
+    h1 {
+        font-size: 2.3rem;
+    }
 }
