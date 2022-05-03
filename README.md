@@ -1,5 +1,5 @@
-# Game Quiz
-
+# Climate Quiz
+Climate quiz is an interactive quiz game where players can test their climat and environmental knowledge. The game consists of 10 questions. If a player answer a question currectly they will receive 10 bonus points. Upon completing the game, the user can save their high score and later look back on the top high scores for the game. This game is not only fun for users to play but also allows users to learn important facts about climate change and the environment. 
 ## Introduction
 
 ![responsive design picture]()
