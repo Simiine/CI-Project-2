@@ -18,12 +18,12 @@ let availableQuestion = [];
  */
 let questions = [
     {
-        question: "What is the greenhouse effect?",
-        choice1: "The measurement of plant growth in areas affected by flooding.",
-        choice2: "When gases in the Earth’s atmosphere prevent heat from escaping into space.",
-        choice3: "When climate change affects ecosystems.",
-        choice4: "The impact trees have on global temperatures.",
-        answer: '2'
+        question: "What percentage of the earth’s atmosphere is comprised of carbon dioxide?",
+        choice1: "0.04",
+        choice2: "1.04",
+        choice3: "4.04",
+        choice4: "5.04",
+        answer: '1'
     },
     {
         question: "What is the most potent greenhouse gas?",
