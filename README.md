@@ -67,7 +67,12 @@ There was a small issue when it game to the medium to large screens. I found whe
 
 ## Validator Testing
 ### HTML
-![html checker warning picture]()
+I passed the start page, game page, end page and high scores page through the HTML checker. The index page and high scores page returned no errors. When I passed the game page through the HTML checker an error came up warning of a duplicate ID which was "hud-item". I corrected this by simply changing the ID to a class which resolved this issue and when I passed the page back through the checker no errors appeared. When I passed the end page through the HTML checker an error came up warning of an empty heading. This heading element was used to enclose the final score on the end page. To fix this issue I simply changed the heading element to a div element. As this resulted in the final score losing it's style, I added in a class "score-style" and used that to add styling back to the final score. when I passed the page back through the checker no errors appeared. 
+
+![game page html checker](assets/images/game-page-html-checker.png)
+![end page page html checker](assets/images/end-page-html-checker.png)
+![html checker](assets/images/html-checker.png)
+
 ### CSS
 ![css validator picture]()
 ### Lighthouse
