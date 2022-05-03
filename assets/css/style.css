@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #D8F3DC; */
 }
 
 body {
@@ -23,7 +22,6 @@ h1 {
 }
 
 h2 {
-    /* font-size: 1.7rem; */
     margin-bottom: 1rem;
     color: #1B4332;
     text-align: center;
@@ -45,48 +43,22 @@ header {
 /* Game start page */
 
 body {
-    /* display: grid; */
     height: 100vh;
-
-    /* test code for responsiveness****************************/
     display: flex;
     justify-content: center;
 }
 
 .game-container {
-    /* display: grid; */
     justify-content: center;
     align-self: center;
     padding: 2rem; 
-
-    /* test code for responsiveness****************************/
     display: flex;
     width: 50rem;
 }
 
-/* test code for responsiveness****************************/
 #game {
     width: 100%;
 }
-
-/* .game-container>* {
-    width: 90%;
-} */
-
-/* .game-area {
-    display: grid;
-    justify-content: center;
-    align-self: center;
-
-    box shadow
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.04);
-    padding-top: 1rem;
-} */
 
 div > a {
     display: grid;
@@ -101,7 +73,6 @@ div > a {
     font-weight: 600;
     border: 0.2rem solid #2D6A4F;
     padding: 0.6rem;
-    /* border-radius: 2rem; */
     background-color: white;
     width: 12rem;
     margin: auto auto 1rem;
@@ -125,10 +96,6 @@ div > a {
 .answer-choice {
     display: flex;
     margin-bottom: 0.8rem;
-    /* width: 100%; */
-    /* font-size: 1.3rem; */
-    /* border: 0.1rem solid #2D6A4F; */
-    /* font-weight: 600; */
     background-color: #ffffff;
 }
 
@@ -175,7 +142,6 @@ div > a {
 }
 
 #progressBar {
-    /* width: 12rem; */
     height: 2rem;
     border: 0.3rem solid #2D6A4F;
     margin-top: 0.5rem;
