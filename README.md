@@ -74,7 +74,42 @@ I passed the start page, game page, end page and high scores page through the HT
 ![html checker](assets/images/html-checker.png)
 
 ### CSS
-![css validator picture]()
+No errors were found when passing through the official (Jigsaw) validator.
+
+![css validator picture](assets/images/css-validator.png)
+
+### JavaScript
+#### Game.JS
+No errors were found when passing through the official Jshint validator
+The following metrics were returned:
+- There are 7 functions in this file.
+- Function with the largest signature take 1 arguments, while the median is 1.
+- Largest function has 12 statements in it, while the median is 2.
+- The most complex function has a cyclomatic complexity value of 4 while the median is 1.
+- There are 30 warnings
+
+![game page javascript validator picture](assets/images/)
+
+#### End.Js
+The following metrics were returned:
+- There are 3 functions in this file.
+- Function with the largest signature take 2 arguments, while the median is 1.
+- Largest function has 8 statements in it, while the median is 1.
+- The most complex function has a cyclomatic complexity value of 1 while the median is 1.
+- There are 11 warnings
+
+![end page javascript validator picture](assets/images/end-page-javascript-validator.png)
+
+#### High Scores.JS
+The following metrics were returned:
+- There is only one function in this file.
+- It takes one argument.
+- This function contains only one statement.
+- Cyclomatic complexity number for this function is 1.
+- There are 4 warnings
+
+![high scores page javascript validator picture](assets/images/end-page-javascript-validator.png)
+
 ### Lighthouse
 #### Desktop
 ![lighthouse desktop picture]()
