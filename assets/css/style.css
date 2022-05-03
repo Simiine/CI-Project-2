@@ -35,7 +35,8 @@ header {
 
 .logo {
     height: 100px;
-    justify-self: center;
+    width: 100px;
+    align-self: center;
 }
 
 /* Game Layout */
@@ -63,6 +64,11 @@ body {
 div > a {
     display: grid;
     justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 /* buttons */
