@@ -22,7 +22,17 @@ I chose to ge for a very minimal colour palette. To complement the theme of the 
 - The font was chosen as it was simple and easy to read
 
 ## Wireframe
-![wireframe picture]()
+I designed wireframes for desktop and mobile viewing. The wireframes were simplistic to visualise how I wanted the questions to be displayed. I created wireframes for the game start page and questions page.
+
+### Desktop
+![wireframe game start page desktop](assets/images/wireframe-start-page-desktop.png)
+
+![wireframe question page desktop](assets/images/wireframe-question-page-desktop.png)
+
+### Mobile
+![wireframe game start page mobile](assets/images/wireframe-start-page-mobile.png)
+
+![wireframe question page mobile](assets/images/wireframe-question-page-mobile.png)
 
 # Features
 ## Header
