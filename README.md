@@ -112,6 +112,7 @@ The following metrics were returned:
 
 ### Lighthouse
 #### Desktop
+
 ![lighthouse desktop picture]()
 #### Mobile
 ![lighthouse mobile picture]()
@@ -127,6 +128,11 @@ There was an issue while going through the quiz with the same questions repeatin
 There was an issue when it came to saving the high scores, where instead of saving the most recent score it was saving a random number. This was a result of the wrong code being written. Once I corrected this code the game started saving the correct score instead of a random number. 
 
 # Deployment
+I deployed the site on GitHub pages. The following steps were used to deploy:
+- In the project repository, navigate to the settings tab.
+- Select the pages tab from the left hand menu.
+- Under the source section, in the drop-down menu select the main branch and click save.
+- Once the page has refreshed a ribbon will display indicating the successful deployment of the site and link to the live page.
 
 # Technology Used
 - HTML
@@ -153,13 +159,4 @@ There was an issue when it came to saving the high scores, where instead of savi
 
 ## Media
 - Picture was taken from the open source site Unsplash https://unsplash.com/
-
-## Code
-- CSS glass effect used on game start page - https://css.glass/
-/* From https://css.glass */
-background: rgba(255, 255, 255, 0.71);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4px);
--webkit-backdrop-filter: blur(4px);
-border: 1px solid rgba(255, 255, 255, 0.04);
+- Logo made using Canva https://www.canva.com/en_gb/
