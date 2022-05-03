@@ -35,7 +35,27 @@ I designed wireframes for desktop and mobile viewing. The wireframes were simpli
 ![wireframe question page mobile](assets/images/wireframe-question-page-mobile.png)
 
 # Features
-## Header
+
+## Start Page
+The start page showcases the game title along with the logo. The logo was created using canva. Underneat the headng and logo are two buttons that offers the players the choice to either start the game or have a look at the top high scores.
+
+![start page](assets/images/start-page.png)
+
+
+## Game Page
+The game page shows a question and gives the player 4 answer choices to choose from. If a user gets a question wrong the chose answer choice turns red and if the user gets a question right the chosen answer choice turns green. Every time a user gets a correct answer they get 10 points. The points are shown at the top right hand side. Opposite the points on the left hand side the user can see how many questions they have answered out of the total questions available.
+![game page](assets/images/game-page.png)
+
+
+## End Page
+Once the user has answered all the question they are taken to the end page which show them their score and gives them the option to save their score by inserting their username and clicking the save button. If a user dows not insert a username they cannot click the save button. Once the score is saved they are taken back to the home page. Under the Save button on the end screen are two more buttons that will either allow the user to play the game again or go to the home page. 
+![end page](assets/images/end-page.png)
+
+## High Scores Page
+The high scores page lists the top scores for the game. The list is limited to showing only the top 5 hight scores.
+![high scores page](assets/images/high-scores-page.png)
+
+
 ## Logo
 
 # Testing
