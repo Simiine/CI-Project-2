@@ -112,10 +112,13 @@ The following metrics were returned:
 
 ### Lighthouse
 #### Desktop
+All the sections of the game scored 100 across performance, accessibility and best practices, only changing in SEO ranging from 90 to 89. 
 
-![lighthouse desktop picture]()
+![lighthouse desktop picture](assets/images/lighthouse-desktop.png)
 #### Mobile
-![lighthouse mobile picture]()
+All the sections of the game scored 100 in accessibility and best practices, 99 in performance and 91 in SEO.
+
+![lighthouse mobile picture](assets/images/lighthouse-mobile.png)
 
 # Bugs
 ## Uncaught TypeError
