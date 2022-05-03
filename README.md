@@ -11,9 +11,16 @@ Climate quiz is an interactive quiz game where players can test their climat and
 
 # Design Choices
 ## Colour Pallette
-https://coolors.co/d7263d-f46036-2e294e-1b998b-c5d86d
-https://coolors.co/palette/d8f3dc-b7e4c7-95d5b2-74c69d-52b788-40916c-2d6a4f-1b4332-081c15
+I chose to ge for a very minimal colour palette. To complement the theme of the game which focused on climate and environmental facts, I chose to use different tones of green. The colour palette I generated is available at https://coolors.co/ffffff-2d6a4f-1b4332
+
+![colour palette](assets/images/colour-palette.png)
+
 ## Typography
+- 1 main font was used for the site 
+- Font was sourced from Google Fonts
+- Font used Roboto, sans-serif
+- The font was chosen as it was simple and easy to read
+
 ## Wireframe
 ![wireframe picture]()
 
