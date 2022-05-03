@@ -55,14 +55,15 @@ Once the user has answered all the question they are taken to the end page which
 The high scores page lists the top scores for the game. The list is limited to showing only the top 5 hight scores.
 ![high scores page](assets/images/high-scores-page.png)
 
-
-## Logo
-
 # Testing
+To ensure cross-compatability, I tested the website across numerous devices and web browsers. The site was tested across different iPhones, a samsung galaxy fold, an iPad, a Mac laptop, and a hp laptop. The site was also tested across google Chrome, Safari and Edge. For responsiveness I used the developer tool for screen adjustments, so I could see how the site would look on different screen sizes as I made the required adjustments for it to be completely responsive.
+
 ## Testing Method
+
 ## Responsive Design
-![responsive design on mobile]()
-![responsive design on medium screen]()
+I found it easy to adjust the site for responsiveness design as I went for a mobile first approach when styling the site. This made for a smooth transition from small screen to large screen. 
+
+There was a small issue when it game to the medium to large screens. I found when testing that the answer choice boxes in the game kept changing in length as you went trough the questions but didn't happen when playing the game in a small screen size. I found that this was because I had not included a width on the container. One I included the width, the issue was solved and question and answer areas remained consistent across different screen sizes
 
 ## Validator Testing
 ### HTML
