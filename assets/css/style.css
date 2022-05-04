@@ -173,7 +173,7 @@ div > a {
     font-weight: 600;
 }
 
-form {
+.submit-highscore {
     width: 100%;
     display: flex;
     flex-direction: column;
