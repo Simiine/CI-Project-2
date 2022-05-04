@@ -4,8 +4,8 @@ Climate quiz is an interactive quiz game where players can test their climate an
 ![responsive design picture](assets/images/responsive-design.png)
 
 # Target Audience 
-- People who enjoy their knowlede tested
-- People who are climate conscious
+- People who enjoy their knowledge tested
+- People who are climate-conscious
 - People who enjoy quiz games
 - People who enjoy learning facts
 
