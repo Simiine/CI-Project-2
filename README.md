@@ -63,9 +63,7 @@ To ensure cross-compatibility, I tested the website across numerous devices and 
 ## Testing Method
 
 ## Responsive Design
-I found it easy to adjust the site for responsiveness design as I went for a mobile first approach when styling the site. This made for a smooth transition from small screen to large screen. 
-
-There was a small issue when it game to the medium to large screens. I found when testing that the answer choice boxes in the game kept changing in length as you went trough the questions but didn't happen when playing the game in a small screen size. I found that this was because I had not included a width on the container. One I included the width, the issue was solved and question and answer areas remained consistent across different screen sizes
+I found it easy to adjust the website for responsiveness design as I went for a mobile-first approach when styling the site. This made for a smooth transition from small screen to large screen. There was a small issue when it came to the medium to large screens. I found when testing, that the answer choice boxes in the game kept changing in length as you went through the questions but didn't happen when playing the game on a small screen size. I found that this was because I had not included a width on the container. Once I included the width, the issue was solved and question and answer areas remained consistent across different screen sizes
 
 ## Validator Testing
 ### HTML
