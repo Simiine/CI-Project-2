@@ -24,9 +24,9 @@ function saveHighScore(event) {
     };
 
     highScores.push(score);
-    highScores.sort( (a,b) => b.score - a.score)
+    highScores.sort( (a,b) => b.score - a.score);
     highScores.splice(maxHighScore);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
     window.location.assign('index.html');
-};
+}
