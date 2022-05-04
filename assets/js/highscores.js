@@ -7,7 +7,7 @@ const highScoresList = document.getElementById('highScoresList');
  */
 function mapScores() {
     if (!highScores) {
-        highScoresList.innerHTML = 'There are no scores!'
+        highScoresList.innerHTML = 'There are no scores!';
     } else {
         highScoresList.innerHTML = highScores.map(score => {
             return `<li class="high-score">${score.name} - ${score.score}</li>`;
@@ -16,4 +16,4 @@ function mapScores() {
     }
 }
 
-mapScores()
+mapScores();
