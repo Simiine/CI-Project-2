@@ -1,4 +1,3 @@
-//Constant Variables
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressBarFull = document.getElementById("progressBarFull");
 const progressText = document.getElementById('progressText');
@@ -148,17 +147,14 @@ choices.forEach(choice => {
         const selectedChoice = event.target;
         const selectedAnswer = selectedChoice.dataset["number"];
 
-        //Shows correct or incorrect answers using CSS styling
         const classToApply = selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect';
 
-        //Increments score for correct answers
         if(classToApply === 'correct') {
             incrementScore(correctBonus);
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
 
-        //Adds delay before next question appears
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
