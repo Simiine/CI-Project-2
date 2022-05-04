@@ -54,7 +54,7 @@ Once the user has answered all the questions, they are taken to the end page whi
 ![end page](assets/images/end-page.png)
 
 ## High Scores Page
-The high scores page lists the top scores for the game. The list is limited to showing only the top 5 hight scores.
+The high scores page lists the top scores for the game. The list is limited to showing only the top 5 high scores.
 ![high scores page](assets/images/high-scores-page.png)
 
 # Testing
