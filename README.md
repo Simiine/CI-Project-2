@@ -133,8 +133,8 @@ I deployed the site on GitHub pages. The following steps were used to deploy:
 Steps to clone this project from GitHub:
 1. In the project repository, navigate to the code button.
 2. Select download Zip from the clone menu.
-3. Once zip file has downloaded, unzip the file.
-4. Save the file and run locally
+3. Once zip file has been downloaded, unzip the file.
+4. Save the file and run it locally
 
 # Technology Used
 - HTML
