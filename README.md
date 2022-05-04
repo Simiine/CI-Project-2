@@ -1,6 +1,5 @@
 # Climate Quiz
 Climate quiz is an interactive quiz game where players can test their climate and environmental knowledge. The game consists of 10 questions. If a player answers a question correctly, they will receive 10 bonus points. Upon completing the game, the user can save their high score and later look back on the top high scores for the game. This game is not only fun for users to play but also allows users to learn important facts about climate change and the environment. 
-
 ![responsive design picture](assets/images/responsive-design.png)
 
 # Target Audience 
@@ -20,7 +19,6 @@ Climate quiz is an interactive quiz game where players can test their climate an
 ## Colour Palette
 I chose to go for a very minimal colour palette. To complement the theme of the game which focused on climate and environmental facts, I chose to use different tones of green.
 The colour palette I generated is available at https://coolors.co/ffffff-2d6a4f-1b4332
-
 ![colour palette](assets/images/colour-palette.png)
 
 ## Typography
@@ -43,19 +41,16 @@ I designed wireframes for desktop and mobile viewing. The wireframes were simpli
 
 ## Start Page
 The start page showcases the game title along with the logo. The logo was created using canva. Underneath the heading and logo are two buttons that offer the players the choice to either start the game or have a look at the top high scores.
-
 ![start page](assets/images/start-page.png)
 
 ## Game Page
 The game page shows a question and gives the player 4 answer choices to choose from. If a user gets a question wrong the chosen answer choice turns red and if the user gets a question right the chosen answer choice turns green. Every time a user gets a correct answer they get 10 points. The points are shown on the top right-hand side. Opposite the points on the left-hand side the user can see how many questions they have answered out of the total questions available.
 
 As the users play the game they don't get shown the correct answer when they answer a question incorrectly. This was done intentionally as I wanted a chance to bring an educational and learning aspect to the game. This gives the players the opportunity to play the game as many times as they want in order to learn as they progress through the game allowing them to leave at the end of the game with more knowledge.
-
 ![game page](assets/images/game-page.png)
 
-
 ## End Page
-Once the user has answered all the question they are taken to the end page which show them their score and gives them the option to save their score by inserting their username and clicking the save button. If a user dows not insert a username they cannot click the save button. Once the score is saved they are taken back to the home page. Under the Save button on the end screen are two more buttons that will either allow the user to play the game again or go to the home page. 
+Once the user has answered all the questions, they are taken to the end page which shows them their score and gives them the option to save their score by inserting their username and clicking the save button. If a user does not insert a username they cannot click the save button. Once the score is saved they are taken back to the home page. Under the Save button on the end screen are two more buttons that will either allow the user to play the game again or go to the home page. 
 ![end page](assets/images/end-page.png)
 
 ## High Scores Page
