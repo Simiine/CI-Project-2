@@ -16,10 +16,7 @@ I chose to ge for a very minimal colour palette. To complement the theme of the 
 ![colour palette](assets/images/colour-palette.png)
 
 ## Typography
-- 1 main font was used for the site 
-- Font was sourced from Google Fonts
-- Font used Roboto, sans-serif
-- The font was chosen as it was simple and easy to read
+1 main font was used for the entire site. The font used was Roboto, sans-serif and it was sourced from Google fonts. The reason I chose this font was because of its simplistic look and because it was easy to read. I felt it fit the overall theme of the websites minimal clean look. 
 
 ## Wireframe
 I designed wireframes for desktop and mobile viewing. The wireframes were simplistic to visualise how I wanted the questions to be displayed. I created wireframes for the game start page and questions page.
