@@ -42,7 +42,7 @@ I designed wireframes for desktop and mobile viewing. The wireframes were simpli
 # Features
 
 ## Start Page
-The start page showcases the game title along with the logo. The logo was created using canva. Underneat the headng and logo are two buttons that offers the players the choice to either start the game or have a look at the top high scores.
+The start page showcases the game title along with the logo. The logo was created using canva. Underneath the heading and logo are two buttons that offer the players the choice to either start the game or have a look at the top high scores.
 
 ![start page](assets/images/start-page.png)
 
