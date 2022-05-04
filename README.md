@@ -1,5 +1,6 @@
 # Climate Quiz
 Climate quiz is an interactive quiz game where players can test their climate and environmental knowledge. The game consists of 10 questions. If a player answers a question correctly, they will receive 10 bonus points. Upon completing the game, the user can save their high score and later look back on the top high scores for the game. This game is not only fun for users to play but also allows users to learn important facts about climate change and the environment. 
+
 ![responsive design picture](assets/images/responsive-design.png)
 
 # Target Audience 
@@ -19,6 +20,7 @@ Climate quiz is an interactive quiz game where players can test their climate an
 ## Colour Palette
 I chose to go for a very minimal colour palette. To complement the theme of the game which focused on climate and environmental facts, I chose to use different tones of green.
 The colour palette I generated is available at https://coolors.co/ffffff-2d6a4f-1b4332
+
 ![colour palette](assets/images/colour-palette.png)
 
 ## Typography
@@ -38,23 +40,26 @@ I designed wireframes for desktop and mobile viewing. The wireframes were simpli
 ![wireframe question page mobile](assets/images/wireframe-question-page-mobile.png)
 
 # Features
-
 ## Start Page
 The start page showcases the game title along with the logo. The logo was created using canva. Underneath the heading and logo are two buttons that offer the players the choice to either start the game or have a look at the top high scores.
+
 ![start page](assets/images/start-page.png)
 
 ## Game Page
 The game page shows a question and gives the player 4 answer choices to choose from. If a user gets a question wrong the chosen answer choice turns red and if the user gets a question right the chosen answer choice turns green. Every time a user gets a correct answer they get 10 points. The points are shown on the top right-hand side. Opposite the points on the left-hand side the user can see how many questions they have answered out of the total questions available.
 
 As the users play the game they don't get shown the correct answer when they answer a question incorrectly. This was done intentionally as I wanted a chance to bring an educational and learning aspect to the game. This gives the players the opportunity to play the game as many times as they want in order to learn as they progress through the game allowing them to leave at the end of the game with more knowledge.
+
 ![game page](assets/images/game-page.png)
 
 ## End Page
 Once the user has answered all the questions, they are taken to the end page which shows them their score and gives them the option to save their score by inserting their username and clicking the save button. If a user does not insert a username they cannot click the save button. Once the score is saved they are taken back to the home page. Under the Save button on the end screen are two more buttons that will either allow the user to play the game again or go to the home page. 
+
 ![end page](assets/images/end-page.png)
 
 ## High Scores Page
 The high scores page lists the top scores for the game. The list is limited to showing only the top 5 high scores.
+
 ![high scores page](assets/images/high-scores-page.png)
 
 # Testing
@@ -70,7 +75,9 @@ I found it easy to adjust the website for responsiveness design as I went for a 
 I passed the start page, game page, end page and high scores page through the HTML checker. The index page and high scores page returned no errors. When I passed the game page through the HTML checker an error came up warning of a duplicate ID which was "hud-item". I corrected this by simply changing the ID to a class which resolved this issue and when I passed the page back through the checker no errors appeared. When I passed the end page through the HTML checker an error came up warning of an empty heading. This heading element was used to enclose the final score on the end page. To fix this issue I simply changed the heading element to a div element. As this resulted in the final score losing its style, I added in a class "score-style" and used that to add styling back to the final score. when I passed the page back through the checker no errors appeared. 
 
 ![game page html checker](assets/images/game-page-html-checker.png)
+
 ![end page page html checker](assets/images/end-page-html-checker.png)
+
 ![html checker](assets/images/html-checker.png)
 
 ### CSS
@@ -106,10 +113,12 @@ No errors were found when passing through the official Jshint validator.
 ### Lighthouse
 #### Desktop
 All sections of the game scored very high in all areas, only changing slightly in some areas by 1 - 3 points. All sections of the game except for the high scores section scored 100 across all areas. The high scores section of the game scored 97 in accessibility.
+
 ![lighthouse desktop picture](assets/images/lighthouse-desktop.png)
 
 #### Mobile
 All sections of the game scored very high in all areas, only changing slightly in some areas by 1 - 3 points. All sections of the game except for the high scores section scored 100 in accessibility, best practices and SEO, while scoring 99 in performance. The high scores section of the game scored 97 in accessibility.
+
 ![lighthouse mobile picture](assets/images/lighthouse-mobile.png)
 
 # Bugs
@@ -142,12 +151,11 @@ Steps to clone this project from GitHub:
 - Javascript
 
 # Credits
-
 ## Contents
 - Font was sourced from Google Fonts https://fonts.google.com/
 
 ## Support
-- - Richard Wells Code Institute Mentor.
+- Richard Wells Code Institute Mentor.
 
 ## Tutorials
 - Javascript Quiz Tutorial - https://www.youtube.com/watch?v=u98ROZjBWy8&t=7s
