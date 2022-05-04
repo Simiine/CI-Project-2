@@ -106,7 +106,7 @@ function startGame() {
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
-};
+}
 
 /**
  * Selects random questions from available list
@@ -134,7 +134,7 @@ function getNewQuestion() {
 
     availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
-};
+}
 
 /**
  * Adds event listener for clicking answer options
@@ -169,6 +169,6 @@ choices.forEach(choice => {
 function incrementScore(num) {
     score += num;
     scoreText.innerText = score;
-};
+}
 
 startGame();
