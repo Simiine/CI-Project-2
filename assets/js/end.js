@@ -11,9 +11,9 @@ username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
 });
 
-saveHighScore = (e) => {
+function saveHighScore(event) {
     console.log("clicked the save button!");
-    e.preventDefault();
+    event.preventDefault();
 
     const score = {
         score: mostRecentScore,
