@@ -145,6 +145,8 @@ Steps to clone this project from GitHub:
 3. Once zip file has been downloaded, unzip the file.
 4. Save the file and run it locally
 
+The live site can be found using the following URL - https://simiine.github.io/climate-quiz/
+
 # Technology Used
 - HTML
 - CSS
