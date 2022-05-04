@@ -67,7 +67,7 @@ I found it easy to adjust the website for responsiveness design as I went for a 
 
 ## Validator Testing
 ### HTML
-I passed the start page, game page, end page and high scores page through the HTML checker. The index page and high scores page returned no errors. When I passed the game page through the HTML checker an error came up warning of a duplicate ID which was "hud-item". I corrected this by simply changing the ID to a class which resolved this issue and when I passed the page back through the checker no errors appeared. When I passed the end page through the HTML checker an error came up warning of an empty heading. This heading element was used to enclose the final score on the end page. To fix this issue I simply changed the heading element to a div element. As this resulted in the final score losing it's style, I added in a class "score-style" and used that to add styling back to the final score. when I passed the page back through the checker no errors appeared. 
+I passed the start page, game page, end page and high scores page through the HTML checker. The index page and high scores page returned no errors. When I passed the game page through the HTML checker an error came up warning of a duplicate ID which was "hud-item". I corrected this by simply changing the ID to a class which resolved this issue and when I passed the page back through the checker no errors appeared. When I passed the end page through the HTML checker an error came up warning of an empty heading. This heading element was used to enclose the final score on the end page. To fix this issue I simply changed the heading element to a div element. As this resulted in the final score losing its style, I added in a class "score-style" and used that to add styling back to the final score. when I passed the page back through the checker no errors appeared. 
 
 ![game page html checker](assets/images/game-page-html-checker.png)
 ![end page page html checker](assets/images/end-page-html-checker.png)
@@ -105,13 +105,11 @@ No errors were found when passing through the official Jshint validator.
 
 ### Lighthouse
 #### Desktop
-All sections of the game scored vary high in all areas, only changing slight in some areas by 1 - 3 points. All sections of the game except for the high scores section scored 100 across all areas. The highscores section of the game scored 97 in accesibility.  
-
+All sections of the game scored very high in all areas, only changing slightly in some areas by 1 - 3 points. All sections of the game except for the high scores section scored 100 across all areas. The high scores section of the game scored 97 in accessibility.
 ![lighthouse desktop picture](assets/images/lighthouse-desktop.png)
 
 #### Mobile
-All sections of the game scored vary high in all areas, only changing slight in some areas by 1 - 3 points. All sections of the game except for the high scores section scored 100 in accessibility, best practices and SEO, while scoring 99 in performance. The highscores section of the game scored 97 in accesibility.  
-
+All sections of the game scored very high in all areas, only changing slightly in some areas by 1 - 3 points. All sections of the game except for the high scores section scored 100 in accessibility, best practices and SEO, while scoring 99 in performance. The high scores section of the game scored 97 in accessibility.
 ![lighthouse mobile picture](assets/images/lighthouse-mobile.png)
 
 # Bugs
