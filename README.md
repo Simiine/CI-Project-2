@@ -114,10 +114,10 @@ All sections of the game scored very high in all areas, only changing slightly i
 
 # Bugs
 ## Uncaught TypeError
-There was an uncaught type error on the home page, which declared inner text as null. The reason this error was happening was because the item didn't exist in the index HTML page. In order to resolve this I would need to create a seperate Javascript for the home page or simply delete the Javascript source in the index page. As the home page didn't have any javascript functions, I chose to delete the javascript source link, which solved the issue.  
+There was an uncaught type error on the home page, which declared inner text as null. The reason this error was happening was because the item didn't exist in the index HTML page. In order to resolve this, I would need to create a separate Javascript for the home page or simply delete the Javascript source in the index page. As the home page didn't have any javascript functions, I chose to delete the javascript source link, which solved the issue.
 
 ## Question repetition
-There was an issue while going through the quiz with the same questions repeating themselves, rather than moving onto new questions. While I put in the correct code to stop questions repeating, the issue was still there. I discovered I had a simple spelling mistake in the code which quickly solved the issue, when corrected.
+There was an issue while going through the quiz with the same questions repeating themselves, rather than moving on to new questions. While I put in the correct code to stop questions from repeating, the issue was still there. I discovered I had a simple spelling mistake in the code which quickly solved the issue when corrected.
 
 ## Saving High Score
 There was an issue when it came to saving the high scores, where instead of saving the most recent score it was saving a random number. This was a result of the wrong code being written. Once I corrected this code the game started saving the correct score instead of a random number. 
