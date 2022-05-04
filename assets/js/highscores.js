@@ -1,4 +1,3 @@
-//Constant variables
 const highScores = JSON.parse(localStorage.getItem('highScores')) || undefined;
 const highScoresList = document.getElementById('highScoresList');
 
