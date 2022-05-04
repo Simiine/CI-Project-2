@@ -111,11 +111,12 @@ No errors were found when passing through the official Jshint validator.
 
 ### Lighthouse
 #### Desktop
-All the sections of the game scored 100 across performance, accessibility and best practices, only changing in SEO ranging from 90 to 89. 
+All sections of the game scored vary high in all areas, only changing slight in some areas by 1 - 3 points. All sections of the game except for the high scores section scored 100 across all areas. The highscores section of the game scored 97 in accesibility.  
 
 ![lighthouse desktop picture](assets/images/lighthouse-desktop.png)
+
 #### Mobile
-All the sections of the game scored 100 in accessibility and best practices, 99 in performance and 91 in SEO.
+All sections of the game scored vary high in all areas, only changing slight in some areas by 1 - 3 points. All sections of the game except for the high scores section scored 100 in accessibility, best practices and SEO, while scoring 99 in performance. The highscores section of the game scored 97 in accesibility.  
 
 ![lighthouse mobile picture](assets/images/lighthouse-mobile.png)
 
