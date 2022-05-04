@@ -40,7 +40,9 @@ The start page showcases the game title along with the logo. The logo was create
 
 
 ## Game Page
-The game page shows a question and gives the player 4 answer choices to choose from. If a user gets a question wrong the chose answer choice turns red and if the user gets a question right the chosen answer choice turns green. Every time a user gets a correct answer they get 10 points. The points are shown at the top right hand side. Opposite the points on the left hand side the user can see how many questions they have answered out of the total questions available.
+The game page shows a question and gives the player 4 answer choices to choose from. If a user gets a question wrong the chosen answer choice turns red and if the user gets a question right the chosen answer choice turns green. Every time a user gets a correct answer they get 10 points. The points are shown at the top right hand side. Opposite the points on the left hand side the user can see how many questions they have answered out of the total questions available.
+
+As the users play the game they don't get shown the correct answer when they answer a question incorrectly. This was done intentional as I wanted a chance to bring en educational and learning aspect to the game. This gives the players the opportunity to play the game as many times as they want in order to learn as they progress through the game allowing them to leave at the end of the game with more knowledge.
 ![game page](assets/images/game-page.png)
 
 
