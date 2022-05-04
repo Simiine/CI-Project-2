@@ -10,11 +10,11 @@ Climate quiz is an interactive quiz game where players can test their climate an
 - People who enjoy learning facts
 
 # User Stories
-- As a user I want the site to be eay to use and navigate
-- As a user I want the site to be fun and interactive
-- As a user I want to be able to learn and gain knoweldge playing the game
-- As a user I want to be able to track my score 
-- As a user I want a responsive site so I can play the game on any device 
+- As a user, I want the site to be easy to use and navigate
+- As a user, I want the site to be fun and interactive
+- As a user, I want to be able to learn and gain knowledge playing the game
+- As a user, I want to be able to track my score 
+- As a user, I want a responsive site so I can play the game on any device 
 
 # Design Choices
 ## Colour Pallette
